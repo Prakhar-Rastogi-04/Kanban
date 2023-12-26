@@ -1,0 +1,15 @@
+.loaderParent {
+    background-color: #fff;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+img.loaderGif {
+    height: 150px;
+}
+.popup-content {
+    background: transparent
+}

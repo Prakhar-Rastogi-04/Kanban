@@ -1,0 +1,51 @@
+.commentContainer {padding: 10px;}
+.username {
+    color: #007bff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.avatarContainer {
+    width: 25px;
+    height: 25px;
+    background-color: #1877f2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    margin-right: 10px;
+    position: relative;
+    font-size: 12px;
+}
+.userComment .detailsValue{
+    display: flex;
+}
+.userComment .detailsValue div {
+    /* flex: 5; */
+}
+.detailsValue .sublabel{  flex: 4; }
+.detailsValue .subValues{  flex: 8; }
+.addComment { text-align: right;}
+.commentHead {
+    display: flex;
+    align-items: center;;
+}
+.commentBody{ display: block;}
+.commentLoop {
+    padding: 10px 0;
+    border-bottom: 1px solid #d9d9d9;
+}
+.commentLoop .subValues{ 
+    /* background: #F0F0F0; */
+    padding: 10px;
+ }
+ .commentLoop:nth-child(even) {
+    background-color: lightgrey;
+ }
+ .commentLoop:nth-child(odd) {
+    background-color: darkgrey;
+ }
+.popupContainer .jodit-react-container {
+    width: 95%;
+}

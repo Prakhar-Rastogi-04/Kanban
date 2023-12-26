@@ -1,0 +1,21 @@
+.pageContainer {
+    display: flex;
+    margin-top: 55px;
+    padding: 10px;
+ }
+ .taskPanel {
+    /* flex: 8; */
+ }
+ .actionPanel {
+    flex: 4;
+ }
+.taskDetailContainer {
+    margin-top: 55px;
+    padding: 20px;
+}
+.taskDetails {
+    display: flex;
+}
+.taskDetails .flextChild {
+    flex: 50%;
+}

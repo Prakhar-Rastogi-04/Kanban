@@ -1,0 +1,60 @@
+.taskIdContainer{
+    color: #000;
+}
+.taskDetails {
+    padding: 10px;
+}
+.detailsValue {
+    display: flex;
+    padding: 8px 5px;
+}
+.detailsValue .sublabel {
+    font-weight: 600;
+}
+.detailsValue div {
+    flex: 65%;
+}
+.buttonSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#popup-root .popup-content  {
+    padding: 10px;
+}
+.confirmationText {text-align: center;}
+.statusBtnContainer {
+    position: relative;
+    display: inline-block;
+}
+.unOrderedList {
+    position: absolute;
+    border: 1px solid #9d9d9d;
+    background-color: #fff;
+    list-style: none;
+    padding: 0;
+    width: 150px;
+}
+.listItem {
+    padding: 10px;
+    cursor: pointer;
+}
+.listItem:hover {
+    background-color: #1877f2;
+    color: #fff;
+    font-weight: 800;
+}
+.descriptionContainer {padding: 10px;}
+.projectLogo {
+    background: #5a5a5a;
+    height: 100px;
+    width: 100px;
+}
+.projectLogo img {
+    height: 100px;
+    width: 100px;
+}
+
+.taskHeader {
+    display: flex;
+}

@@ -1,0 +1,202 @@
+.topbarContainer {
+    height: 50px;
+    width: 100%;
+    background-color: #1877f2;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+.topbarLeft {
+    flex: 3;
+}
+.topbarRight {
+    flex: 4; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.topbarLink {
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+}
+.topbarLink div {
+    margin-right: 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.topbarLink .currentTab {
+    font-weight: 700;
+    border-bottom: 2px solid #fff;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+.topbarIconContainer {
+    display: flex;
+}
+.topbarCenter {
+    flex: 5;
+    position: relative;
+}
+.toobarImg {
+    width: 32px;
+    height: 32px;
+}
+.topbarIconItem {
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.toolbarIconBadge {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    top: -10px;
+    left: 10px;
+}
+.logoContainer {
+    color: white;
+    text-align: center;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+.companyLogo {
+    font-size: 26px;
+    font-weight: bold;
+}
+.comanyTagLine {
+    font-size: 12px;
+}
+.searchBar {
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.searchIcon {
+    font-size: 20px !important;
+    margin-left: 10px;
+}
+.searchText {
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+}
+.searchText:focus {
+    border: none;
+    outline: none;
+}
+.toobarImg{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.predictiverResults {
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0;
+    height: 0;
+    background-color: #fff;
+    
+}
+.predictiverResultsStyles {
+    height: auto;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.predictiverResults ul{
+    padding: 0;
+    height: auto;
+    max-height: 165px;
+    overflow-y: scroll;
+    margin: 5px;
+}
+.predictiverResults ul li {
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #d9d9d9;
+    list-style: none;
+}
+.predictiverResults ul li:hover {
+    background-color: #1877f2;
+    color: #fff;
+    cursor: pointer;
+}
+.topbarProfileIcon { display:  flex;}
+.topbarProfileIcon .avatarContainer {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1877f2;
+    font-weight: 700;
+    margin-right: 10px;
+    position: relative;
+}
+.topbarProfileIcon  .userNameContainer {
+    color: #fff;
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+}
+.topbarProfileIcon  .profileMenu {
+    position: absolute;
+    top: 40px;
+    width: 200px;
+    background: #fff;
+    display: none;
+}
+.topbarProfileIcon  .avatarContainer:hover .profileMenu {
+    display: block;
+}
+.topbarProfileIcon  .topbarProfileIcon {
+    display: flex;
+}
+
+.topbarProfileIcon  .profileMenu ul li {
+    list-style: none;
+    padding: 10px;
+    color: #000;
+    border-bottom: 1px solid #9d9d9d;
+    font-weight: 400;
+}
+.topbarProfileIcon  .profileMenu ul li:hover {
+    background-color: #1877f2;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+}
+.topbarProfileIcon .profileMenu ul li.disabled, .topbarProfileIcon .profileMenu ul li.disabled:hover {
+    background: #d9d9d9;
+    color: #fff;
+    cursor: default;
+    font-weight: inherit;
+}
+.topbarProfileIcon .username {
+    color: #fff;
+}

@@ -1,0 +1,57 @@
+.vl {
+    stroke-width: 2;
+    stroke: black;
+    flex-grow: 1;
+    width: 20%;
+  }
+  .verticalArrow {
+    transform: rotate(180deg);
+    padding: 15px;
+  }
+  .verticalArrow .text{
+    writing-mode: vertical-rl;
+  }
+  .text {
+    text-anchor: middle;
+    font-size: 20px;
+  }
+  .hl {
+    stroke-width: 2;
+    stroke: black;
+  }
+  .iuViewContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .iuGraphParent {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 9;
+    width: 75%;
+  }
+  .taskBlocks {
+    flex : 45%;
+    padding: 5px;
+    text-align: center;
+    overflow: hidden;
+    height: 270px;
+  }
+  .border-bottom-dotted {
+    border-bottom: 2px dotted #414040;
+  }
+  .border-right-dotted {
+    border-right: 2px dotted #414040;
+  }
+  .taskTokenContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .taskToken {
+    padding: 5px;
+    width: 150px;
+    border: 2px solid #d9d9d9;
+    border-radius: 5px;
+    margin: 2px;
+  }

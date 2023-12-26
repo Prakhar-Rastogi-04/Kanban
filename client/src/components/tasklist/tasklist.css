@@ -1,0 +1,35 @@
+.tasklistContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.taskParent {
+  display: flex;
+  flex-direction: column;
+}
+.toDoColumn, .inProgressColumn, .doneColumn {
+    width: 100%;
+}
+.taskClssification{
+  text-align: center;
+}
+.restoreList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.restoreList:nth-child(odd) {
+  background-color: lightgray;
+}
+.restoreList:nth-child(even) {
+  background-color: darkgrey;
+}
+.dragDropContainer {
+  background-color: transparent;
+  color: #000;
+}
+.dragDropContainer:hover {
+  /* background-color: darkgray !important; */
+  color: #000 !important;
+  background-image: linear-gradient(to right, #1877f2 , #fff);
+}

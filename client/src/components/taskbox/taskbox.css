@@ -1,0 +1,56 @@
+.taskboxContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* border: 2px solid #d9d9d9; */
+    /* border-radius: 10px; */
+    /* height: 150px; */
+    /* margin: 5px; */
+    /* box-shadow: 0px 0px 18px -8px rgba(0,0,0,1.65); */
+    position: relative;
+    cursor: pointer;
+    height: 175px;
+}
+.taskboxContent {
+    flex: 9;
+    text-align: left;
+}
+.taskPriority {
+    border: 2px solid #fff;
+    border-radius: 12px;
+    padding: 5px 10px;
+    width: fit-content;
+    font-weight: bold;
+}
+.taskPriority.vhp {
+    background-color: darkred;
+}
+.taskPriority.hp {
+    background-color: darkviolet;
+}
+.taskPriority.mp {
+    background-color: orange;
+}
+.taskPriority.lp {
+    background-color: seagreen;
+}
+.status-priority-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.taskboxContainer:hover .deleteTask{
+    display: block;
+}
+/* .taskboxContainer:hover { background: #e4e6ea; } */
+.deleteTask{
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+button {
+    cursor: pointer;
+}

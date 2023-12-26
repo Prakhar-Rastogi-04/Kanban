@@ -1,0 +1,11 @@
+.pageContainer {
+    display: flex;
+    margin-top: 55px;
+    padding: 10px;
+ }
+ .taskPanel {
+    flex: 8;
+ }
+ .actionPanel {
+    flex: 4;
+ }

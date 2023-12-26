@@ -1,0 +1,7 @@
+.jodit-react-container {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 8 1;
+}

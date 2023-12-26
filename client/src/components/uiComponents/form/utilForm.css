@@ -1,0 +1,47 @@
+.kanban-form {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* border: 2px solid #d9d9d9; */
+    /* border-radius: 10px; */
+    margin: 5px;
+    /* box-shadow: 0px 0px 18px -8px rgba(0,0,0,1.65) */
+    background: lightgrey;
+}
+.calendarInput {
+  position: relative;
+}
+.calendarSection {
+  position: absolute;
+  right: 230px;
+}
+.kanban-form .formGroup {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .kanban-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    flex: 4;
+  }
+  
+  .kanban-form input[type="text"],
+  .kanban-form textarea,
+  .kanban-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 8;
+  }
+  
+  .kanban-form select {
+    appearance: none;
+  }
+  .description {
+    height: 250px;
+  }
